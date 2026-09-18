@@ -1,0 +1,8 @@
+services:
+  wordapp:
+    build: .
+    image: wordapp:latest
+    container_name: wordapp
+    restart: unless-stopped
+    ports:
+      - "80:80"
