@@ -5,4 +5,4 @@ services:
     container_name: wordapp
     restart: unless-stopped
     ports:
-      - "1221:1221"
+      - "1221:80"
